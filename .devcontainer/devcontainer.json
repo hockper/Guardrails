@@ -1,0 +1,11 @@
+{
+  "name": "Multi-Guardrails Project",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "nemo-env", // O container onde o VS Code "entrará" por padrão
+  "workspaceFolder": "/workspaces",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-azuretools.vscode-docker"]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+models:
+  - type: main
+    engine: safeguard
+    model: xTRam1/safe-guard-classifier

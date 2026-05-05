@@ -1,0 +1,3 @@
+guardrails-ai
+openai
+python-dotenv

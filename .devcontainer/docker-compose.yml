@@ -1,0 +1,18 @@
+services:
+  nemo-env:
+    build:
+      context: ..
+      dockerfile: nemo-guardrails/Dockerfile
+    hostname: nemo-env 
+    volumes:
+      - ..:/workspaces:cached
+    command: sleep infinity
+
+  guardrails-ai-env:
+    build:
+      context: ..
+      dockerfile: guardrails-ai/Dockerfile
+    hostname: guardrails-ai-env 
+    volumes:
+      - ..:/workspaces:cached
+    command: sleep infinity

@@ -1,0 +1,4 @@
+models:
+  - type: main
+    engine: nim
+    model: mistralai/devstral-2-123b-instruct-2512

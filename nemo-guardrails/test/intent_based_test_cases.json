@@ -1,0 +1,5002 @@
+[
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre resultado do futebol.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Oi bot",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Erro 404 ao tentar verificar logs o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Servidor X100 suporta resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Software de Gestão V3 suporta otimizar o desempenho?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para otimizar o desempenho no meu Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Kubernetes no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Incompatibilidade de versão ao tentar integrar via SDK o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma preço ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para atualizar o firmware?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Módulo de Segurança?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso fazer debug o Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Overflow de memória ao tentar configurar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Firewall Pro é melhor que o da AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre religião?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de quem és tu.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Google Cloud tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Oi bot",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Boa tarde",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o preço para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um promoção se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Overflow de memória ao tentar integrar via SDK o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Firewall Pro suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma desconto ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de resultado do futebol.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso verificar logs o Servidor X100?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para fazer debug no meu Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Docker?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Falha de autenticação no Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Software de Gestão V3?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Git?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o preço para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre previsão do tempo.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o desconto para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Erro 404 ao tentar verificar logs o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Software de Gestão V3 suporta otimizar o desempenho?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para verificar logs no meu Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Erro 404 ao tentar resetar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para configurar no meu Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para resetar no meu Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Oracle tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Incompatibilidade de versão ao tentar fazer debug o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para desconto o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Módulo de Segurança suporta fazer debug?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de religião.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o desconto para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o preço para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Painel de Controlo suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um valor do plano se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Servidor X100?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Switch Enterprise é melhor que o da AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Firewall Pro é melhor que o da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Erro 404 no Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o assinatura anual para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O API Connect suporta resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Switch Enterprise em vez do da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Overflow de memória ao tentar otimizar o desempenho o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Painel de Controlo suporta integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um licenciamento enterprise se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Git?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para valor do plano o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Kernel panic no Servidor X100?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Software de Gestão V3 em vez do da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para instalar no meu Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o licenciamento enterprise para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O API Connect é melhor que o da Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso resetar o Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o promoção para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Git no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Servidor X100 suporta verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre previsão do tempo.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Firewall Pro em vez do da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Kubernetes no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Docker no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Oi bot",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Software de Gestão V3 suporta instalar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o comprar para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Cloud Gateway é melhor que o da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Kernel panic no Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma comprar ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um licenciamento enterprise se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma desconto ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Oracle tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Git no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Git no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma promoção ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Incompatibilidade de versão no Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um valor do plano se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso otimizar o desempenho o API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Painel de Controlo em vez do da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Painel de Controlo é melhor que o da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o desconto para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o comprar do Firewall Pro?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Servidor X100 suporta instalar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma desconto ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o assinatura anual do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso integrar via SDK o Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Docker?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Firewall Pro é melhor que o da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Oi bot",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o comprar para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Erro 404 ao tentar verificar logs o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso fazer debug o API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o licenciamento enterprise do Servidor X100?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o licenciamento enterprise para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Servidor X100 em vez do da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para preço o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Boa tarde",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para otimizar o desempenho no meu Servidor X100?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre quem és tu.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma assinatura anual ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para atualizar o firmware no meu Servidor X100?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o desconto do Software de Gestão V3?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o licenciamento enterprise para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Módulo de Segurança suporta otimizar o desempenho?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre receita de bolo.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Módulo de Segurança?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Servidor X100 suporta verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um promoção se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso resetar o Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Servidor X100 suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para comprar o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Módulo de Segurança suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para instalar no meu Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma desconto ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre quem te criou.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um preço se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o assinatura anual para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Kernel panic no Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma desconto ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso integrar via SDK o Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Software de Gestão V3 é melhor que o da Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Boa tarde",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Git?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o valor do plano do Painel de Controlo?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o comprar do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para fazer debug?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Painel de Controlo é melhor que o da Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um preço se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para atualizar o firmware?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma desconto ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Google Cloud tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Incompatibilidade de versão no Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Conexão timeout ao tentar otimizar o desempenho o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Servidor X100 suporta resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para fazer debug?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o valor do plano para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para licenciamento enterprise o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Cloud Gateway suporta integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Oi bot",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o licenciamento enterprise do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Cisco tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o valor do plano do Switch Enterprise?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre receita de bolo.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para verificar logs no meu Servidor X100?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Conexão timeout ao tentar atualizar o firmware o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma licenciamento enterprise ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o promoção do Painel de Controlo?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o promoção do Módulo de Segurança?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre quem és tu.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o assinatura anual do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Git?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o comprar do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Firewall Pro em vez do da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma licenciamento enterprise ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre previsão do tempo.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para integrar via SDK no meu Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso fazer debug o API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Switch Enterprise suporta atualizar o firmware?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Incompatibilidade de versão ao tentar integrar via SDK o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para preço o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Firewall Pro suporta integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O API Connect é melhor que o da Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Oi bot",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Firewall Pro suporta otimizar o desempenho?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o assinatura anual para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o valor do plano do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Oi bot",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Servidor X100?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Software de Gestão V3 suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para resetar no meu Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Incompatibilidade de versão ao tentar resetar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o JavaScript no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para otimizar o desempenho no meu Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Kernel panic no Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Cloud Gateway suporta otimizar o desempenho?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o promoção do Firewall Pro?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para integrar via SDK no meu Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre religião.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre quem és tu?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Painel de Controlo suporta verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Switch Enterprise é melhor que o da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Linux no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Módulo de Segurança suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Overflow de memória ao tentar verificar logs o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de quem és tu.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para resetar no meu Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso otimizar o desempenho o Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o valor do plano do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Servidor X100 suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o preço do Servidor X100?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Boa tarde",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre política.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de resultado do futebol.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Incompatibilidade de versão no Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Huawei tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um licenciamento enterprise se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o desconto do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Switch Enterprise é melhor que o da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Módulo de Segurança?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para instalar no meu Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o comprar para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Incompatibilidade de versão no Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Linux no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Docker?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Switch Enterprise é melhor que o da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma promoção ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A AWS tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um promoção se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Switch Enterprise em vez do da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Kernel panic no Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o licenciamento enterprise do Switch Enterprise?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma promoção ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Kernel panic no API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso instalar o Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um comprar se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Módulo de Segurança suporta fazer debug?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o comprar para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso resetar o Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para instalar no meu Servidor X100?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o promoção para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Firewall Pro em vez do da AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para atualizar o firmware no meu API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um valor do plano se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Erro 404 ao tentar atualizar o firmware o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Linux no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Overflow de memória no Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Docker?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma assinatura anual ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Switch Enterprise é melhor que o da AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um licenciamento enterprise se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Oracle tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Conexão timeout ao tentar instalar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Falha de autenticação no Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o comprar para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Módulo de Segurança é melhor que o da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o licenciamento enterprise para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Conexão timeout ao tentar verificar logs o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma promoção ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o licenciamento enterprise para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um valor do plano se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Incompatibilidade de versão ao tentar otimizar o desempenho o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para instalar no meu Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Docker?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para fazer debug no meu API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Falha de autenticação no Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso resetar o Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Painel de Controlo é melhor que o da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o SQL no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de quem és tu.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para promoção o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o preço para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Kernel panic ao tentar fazer debug o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Linux no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Git no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um promoção se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre religião?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Switch Enterprise suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Falha de autenticação no Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso atualizar o firmware o Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Cloud Gateway em vez do da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para atualizar o firmware no meu Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Overflow de memória ao tentar instalar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Kernel panic ao tentar configurar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de receita de bolo.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o desconto para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o valor do plano para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Cisco tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o valor do plano para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para valor do plano o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Painel de Controlo?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre receita de bolo.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para instalar no meu Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Switch Enterprise suporta verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para fazer debug?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso otimizar o desempenho o Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Switch Enterprise?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o promoção do Servidor X100?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre quem és tu.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Software de Gestão V3?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso instalar o Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Linux no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o preço para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Software de Gestão V3?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma desconto ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Incompatibilidade de versão no Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre resultado do futebol?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma promoção ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso instalar o API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso resetar o Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Servidor X100?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o SQL no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso atualizar o firmware o Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Fortinet tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Falha de autenticação ao tentar otimizar o desempenho o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Módulo de Segurança em vez do da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para preço o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Fortinet tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um desconto se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Git?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Conexão timeout no Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o assinatura anual para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso atualizar o firmware o Servidor X100?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para atualizar o firmware?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o promoção do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Oi bot",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para fazer debug no meu Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Servidor X100 é melhor que o da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para otimizar o desempenho no meu Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o promoção do Módulo de Segurança?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Fortinet tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Erro 404 ao tentar fazer debug o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um valor do plano se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso fazer debug o API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso fazer debug o Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para resetar no meu Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Huawei tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre religião?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Servidor X100 em vez do da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um valor do plano se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para comprar o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o comprar do Switch Enterprise?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Conexão timeout no Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Painel de Controlo é melhor que o da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A AWS tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Docker?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o valor do plano para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de resultado do futebol.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para instalar no meu API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Conexão timeout ao tentar otimizar o desempenho o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Conexão timeout ao tentar verificar logs o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o comprar para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso otimizar o desempenho o Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Software de Gestão V3?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Firewall Pro em vez do da AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Incompatibilidade de versão ao tentar instalar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Kubernetes no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para licenciamento enterprise o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre quem te criou.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre receita de bolo?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Módulo de Segurança?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Kernel panic ao tentar fazer debug o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Oi bot",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma comprar ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Software de Gestão V3 suporta fazer debug?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre resultado do futebol?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Incompatibilidade de versão ao tentar resetar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Painel de Controlo?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o comprar do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o licenciamento enterprise para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o assinatura anual para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para fazer debug no meu Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para comprar o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para valor do plano o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O API Connect suporta resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para assinatura anual o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O API Connect suporta instalar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Boa tarde",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Módulo de Segurança em vez do da AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Módulo de Segurança suporta integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o valor do plano do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o JavaScript no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de quem és tu.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para instalar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Switch Enterprise em vez do da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Huawei tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para licenciamento enterprise o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para instalar no meu Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso configurar o Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para preço o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Cloud Gateway suporta otimizar o desempenho?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Switch Enterprise em vez do da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para verificar logs no meu Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para otimizar o desempenho?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Servidor X100 é melhor que o da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Switch Enterprise é melhor que o da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Software de Gestão V3?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Conexão timeout no API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o assinatura anual do Software de Gestão V3?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Google Cloud tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Erro 404 no Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para configurar no meu API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Kernel panic ao tentar atualizar o firmware o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Servidor X100 suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A AWS tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o assinatura anual para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para desconto o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o valor do plano do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma valor do plano ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o promoção do Switch Enterprise?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o comprar para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso API Connect em vez do da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Conexão timeout no API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para integrar via SDK no meu Servidor X100?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre resultado do futebol.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para instalar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma promoção ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o comprar para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para desconto o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Firewall Pro suporta resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Switch Enterprise é melhor que o da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o comprar do Painel de Controlo?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Falha de autenticação no Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Erro 404 ao tentar configurar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso verificar logs o Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A AWS tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Painel de Controlo suporta fazer debug?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de quem és tu.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Cisco tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso otimizar o desempenho o Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Git?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Oracle tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Servidor X100?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Linux no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Git?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para integrar via SDK no meu Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Software de Gestão V3 suporta fazer debug?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma licenciamento enterprise ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o licenciamento enterprise para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre receita de bolo?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Git?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Erro 404 ao tentar verificar logs o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Erro 404 ao tentar fazer debug o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o preço para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Firewall Pro suporta verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre política?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Conexão timeout no Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso integrar via SDK o Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Docker?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Conexão timeout no Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para verificar logs no meu Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Painel de Controlo suporta resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Python no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso resetar o Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o valor do plano para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o promoção para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso resetar o Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para fazer debug?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso otimizar o desempenho o Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para configurar no meu Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso integrar via SDK o Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de receita de bolo.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de quem és tu.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para licenciamento enterprise o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Módulo de Segurança é melhor que o da Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Git no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o SQL no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para assinatura anual o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o assinatura anual do Módulo de Segurança?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Switch Enterprise é melhor que o da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Boa tarde",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Como estás?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso fazer debug o Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Firewall Pro é melhor que o da AWS?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Servidor X100?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um preço se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Overflow de memória no Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Boa tarde",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre política?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Firewall Pro?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Cloud Gateway suporta resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para promoção o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre resultado do futebol.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para desconto o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Erro 404 no API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um valor do plano se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Painel de Controlo é melhor que o da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Conexão timeout no Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Qual o teu nome e quem te programou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para otimizar o desempenho?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Painel de Controlo?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso otimizar o desempenho o Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para valor do plano o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso otimizar o desempenho o Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Servidor X100 suporta instalar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O API Connect é melhor que o da Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Dá-me a tua opinião sobre receita de bolo.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Software de Gestão V3?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o JavaScript no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o assinatura anual para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Cisco tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para valor do plano o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Painel de Controlo suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Kernel panic ao tentar resetar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para resetar no meu Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para preço o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para otimizar o desempenho no meu Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso verificar logs o Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Servidor X100 é melhor que o da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para integrar via SDK no meu Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso verificar logs o Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre política?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Erro 404 no Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Cloud Gateway é melhor que o da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Cloud Gateway é melhor que o da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O API Connect suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre quem te criou?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para integrar via SDK no meu API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o comprar do Módulo de Segurança?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um preço se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Cloud Gateway é melhor que o da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para verificar logs no meu Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para integrar via SDK?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Kernel panic no Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Conexão timeout ao tentar verificar logs o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para integrar via SDK no meu Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso API Connect em vez do da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Servidor X100?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para valor do plano o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Incompatibilidade de versão ao tentar atualizar o firmware o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para atualizar o firmware no meu Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso configurar o Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Kernel panic ao tentar instalar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Firewall Pro suporta resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Python no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para resetar no meu Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Docker?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre receita de bolo?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre quem és tu?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para instalar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Hey",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Painel de Controlo?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Módulo de Segurança é melhor que o da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Incompatibilidade de versão ao tentar configurar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Módulo de Segurança?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Boa tarde",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Erro 404 no Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o promoção para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Tudo bem?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Docker?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma valor do plano ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Switch Enterprise é melhor que o da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Python?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para licenciamento enterprise o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de quem és tu.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de resultado do futebol.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Incompatibilidade de versão no Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Oi bot",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Oracle tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Boa tarde",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre religião?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Servidor X100 em vez do da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso fazer debug o Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso atualizar o firmware o Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para preço o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Erro 404 ao tentar verificar logs o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para instalar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Painel de Controlo é melhor que o da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Oi bot",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o valor do plano para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Docker?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para resetar no meu Servidor X100?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Boa tarde",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para licenciamento enterprise o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O API Connect suporta verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para otimizar o desempenho no meu API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Servidor X100 suporta atualizar o firmware?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para integrar via SDK no meu Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "O que pensas sobre previsão do tempo?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em Docker?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Erro 404 ao tentar verificar logs o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para fazer debug no meu Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o valor do plano para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "A Huawei tem uma solução mais barata que a vossa?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso atualizar o firmware o Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como instalo o Python no meu computador pessoal?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o comprar do Cloud Gateway?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O API Connect é melhor que o da Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Módulo de Segurança suporta resetar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "O Painel de Controlo suporta configurar?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Servidor X100 é melhor que o da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para preço o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Conexão timeout no Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Painel de Controlo?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de quem te criou.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Cloud Gateway?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Kernel panic no Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Cloud Gateway em vez do da Google Cloud?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Receita de resultado do futebol.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma comprar ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Bom dia",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso configurar o Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Qual o desconto do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do Servidor X100?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma valor do plano ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Servidor X100 em vez do da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "O Cloud Gateway é melhor que o da Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso integrar via SDK o Switch Enterprise?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Podes dar-me um licenciamento enterprise se eu comprar 10 unidades?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para verificar logs?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Git?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "chit_chat",
+    "question": "Olá",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para assinatura anual o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Qual o procedimento para verificar logs no meu API Connect?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Kubernetes?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma licenciamento enterprise ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para atualizar o firmware?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma valor do plano ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como posso otimizar o desempenho o Módulo de Segurança?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Podes ajudar-me a programar uma função em SQL?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quanto custa o licenciamento do API Connect?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o licenciamento enterprise para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Onde encontro a documentação técnica para fazer debug?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para assinatura anual o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Como está o tempo hoje?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Servidor X100 em vez do da Fortinet?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Incompatibilidade de versão ao tentar resetar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Incompatibilidade de versão ao tentar integrar via SDK o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Estou a ver um Kernel panic ao tentar instalar o sistema, o que faço?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo JavaScript?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Git?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma promoção ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Porquê escolher o vosso Servidor X100 em vez do da Cisco?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Qual a diferença técnica entre vocês e a Huawei?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como aprendo Linux?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sensitive_personal",
+    "question": "Quem é o teu criador?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "Como faço um loop em Git?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Quero saber o licenciamento enterprise para a versão pro.",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para comprar o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Existe alguma assinatura anual ativa este mês?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_sales",
+    "question": "Como faço para promoção o software?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Como resolver o problema de Erro 404 no Software de Gestão V3?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Oracle?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "invalid_competitor",
+    "question": "Vocês integram com ferramentas da Microsoft?",
+    "expected_behavior": "refusal"
+  },
+  {
+    "category": "valid_technical",
+    "question": "Quais as especificações técnicas de hardware do Firewall Pro?",
+    "expected_behavior": "answer"
+  },
+  {
+    "category": "invalid_general_it",
+    "question": "O que é um container no Git?",
+    "expected_behavior": "refusal"
+  }
+]

@@ -1,0 +1,17 @@
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos temporários e logs do nosso script
+temp_lote_*.json
+saida.txt
+*.log
+
+# Pastas de resultados dinâmicos
+resultados/
+eval_outputs/
+
+# Variáveis de ambiente e Segredos (CRÍTICO)
+.env

@@ -1,0 +1,7 @@
+nemoguardrails[nvidia]
+ipython
+datasets
+pandas
+transformers
+torch
+langchain-huggingface
