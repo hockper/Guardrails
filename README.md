@@ -96,4 +96,3 @@ python analisar_resultados.py
 - [x] Dockerizar ambiente de avaliação.
 - [ ] Integrar e avaliar o **Guardrails AI**.
 - [ ] Adicionar suporte a LLMs locais (Hugging Face via pipeline) como alternativa à API externa.
-```
