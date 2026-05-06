@@ -12,6 +12,7 @@ saida.txt
 # Pastas de resultados dinâmicos
 resultados/
 eval_outputs/
+auditoria_erros/
 
 # Variáveis de ambiente e Segredos (CRÍTICO)
 .env

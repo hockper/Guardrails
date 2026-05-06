@@ -12,8 +12,8 @@ PASTA_RESULTADOS = "resultados"
 TIPO_AVALIACAO = "moderation" 
 
 # --- Configurações de Controle de API (Rate Limit e Resiliência) ---
-TAMANHO_LOTE = 10       
-PAUSA_ENTRE_LOTES = 15 
+TAMANHO_LOTE = 15       
+PAUSA_ENTRE_LOTES = 25 
 MAX_TENTATIVAS = 3     # Quantas vezes ele vai tentar refazer um lote que deu "null"
 
 def lote_tem_resposta_nula(pasta_lote):
@@ -48,6 +48,8 @@ def limpar_pasta_lote(pasta_lote):
     """Remove a pasta do lote e seus conteúdos para garantir um retry limpo."""
     if os.path.exists(pasta_lote):
         shutil.rmtree(pasta_lote)
+
+        
 
 def executar_avaliacoes_em_lote():
     caminho_configs = Path(PASTA_CONFIGS)
@@ -91,6 +93,7 @@ def executar_avaliacoes_em_lote():
                 else:
                     print(f"   ♻️  Lote {idx_lote + 1} incompleto ou com 'null' detectado em run anterior. Refazendo...")
                     limpar_pasta_lote(pasta_saida) # Limpa para refazer do zero
+            
 
             print(f"   ▶️ Processando lote {idx_lote + 1} de {len(lotes)}...")
             
