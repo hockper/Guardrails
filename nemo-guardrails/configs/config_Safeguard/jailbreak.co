@@ -1,0 +1,12 @@
+# Define a mensagem de recusa padrão do bot para jailbreaks
+define bot refuse to respond jailbreak
+  "Desculpe, não posso prosseguir com essa solicitação pois ela viola as diretrizes de segurança."
+
+# Define o fluxo do Input Rail
+define flow check jailbreak
+  # O NeMo Guardrails armazena a mensagem do usuário na variável embutida $user_message
+  $is_jailbreak = execute check_local_jailbreak(user_input=$user_message)
+
+  if $is_jailbreak
+    bot refuse to respond jailbreak
+    stop

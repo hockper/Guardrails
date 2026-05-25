@@ -1,0 +1,20 @@
+models:
+  - type: main
+    engine: mock_provider
+    model: mock-model-v1
+  
+  - type: embeddings
+    engine: SentenceTransformers
+    model: all-MiniLM-L6-v2
+
+
+core:
+  embedding_search_provider:
+    parameters:
+      search_threshold: 0.4
+
+rails:
+  dialog:
+    user_messages:
+      # FORÇA a usar apenas matemática vetorial para mapear as intenções do Colang
+      embeddings_only: true
